@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Utility for rotation animation when switching to landscape */
+@keyframes rotateDeviceHint {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(90deg); }
+}
